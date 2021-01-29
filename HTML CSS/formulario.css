@@ -1,0 +1,22 @@
+.fm{
+    display: grid;
+    flex-direction: column;
+}
+.formulario{
+    background-color: black;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+.fm > *{
+    margin: 10px 0px 0px 0px;
+    padding: 15px;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}

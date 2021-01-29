@@ -1,0 +1,36 @@
+html{background-color: blueviolet;
+color: white;}
+p{margin: auto;}
+main{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    margin-top: 25px;}
+main>img{
+    width: 50%;
+    margin:auto;}
+h1{
+    background-color: white;
+    color: black;
+     margin: 10px;
+    padding: 25px;
+    border: 3px;
+    border-radius: 15px;
+    border: dotted gray;
+}
+footer{background-color: white;
+color: black;
+ margin: 10px;
+padding: 25px;
+border: 3px;
+border-radius: 15px;
+border: dotted gray;
+position:fixed;
+width: 100%;
+bottom:0px;}
+img{
+    transition: 1s ease;}
+img:hover{
+    transform: rotate(-5deg);
+    border: 5px solid black; 
+}
