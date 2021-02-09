@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav>a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    transition: all 0.75s ease;
+}
+nav>a:hover{
+    transform:scale(1.4);
+    background-color: gray;
+    border-bottom: red 5px solid;
+}
+nav{
+    display: grid;
+    grid-auto-flow: row;
+    width: 60%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+}

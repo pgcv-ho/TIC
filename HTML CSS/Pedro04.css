@@ -1,0 +1,9 @@
+h1{background-color: crimson;
+color:aliceblue;
+ margin: 10px;
+padding: 25px;
+border: 3px;
+border-radius: 15px;}
+p{color: blue;}
+pre{background-color: pink;
+color: cornsilk;}
